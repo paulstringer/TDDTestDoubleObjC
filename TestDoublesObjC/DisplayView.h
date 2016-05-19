@@ -1,5 +1,5 @@
 //
-//  Sale.h
+//  DisplayView.h
 //  TestDoublesObjC
 //
 //  Created by Paul Stringer on 19/05/2016.
@@ -8,12 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@class DisplayView;
+@interface DisplayView : NSObject
 
-@interface Sale : NSObject
-
-- (id) initWithDisplay:(DisplayView*)display;
-
-- (void) scan:(NSString *)barcode;
+- (void) showLine:(NSString *)line;
 
 @end

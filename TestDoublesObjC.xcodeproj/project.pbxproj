@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EAFCFACAF5F7C01D5B4D282 /* libPods-TestDoublesObjCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD7DCA396A6A78F051B1FEB /* libPods-TestDoublesObjCTests.a */; };
 		8C8B234B1CEDD46E008BAB68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8B234A1CEDD46E008BAB68 /* main.m */; };
 		8C8B234E1CEDD46E008BAB68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8B234D1CEDD46E008BAB68 /* AppDelegate.m */; };
 		8C8B23511CEDD46E008BAB68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8B23501CEDD46E008BAB68 /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		8C8B23591CEDD46E008BAB68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C8B23571CEDD46E008BAB68 /* LaunchScreen.storyboard */; };
 		8C8B23641CEDD46E008BAB68 /* TestDoublesObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8B23631CEDD46E008BAB68 /* TestDoublesObjCTests.m */; };
 		8C8B23701CEDD488008BAB68 /* Sale.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8B236F1CEDD488008BAB68 /* Sale.m */; };
+		8C8B23731CEDD560008BAB68 /* DisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8B23721CEDD560008BAB68 /* DisplayView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,11 @@
 		8C8B23651CEDD46E008BAB68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C8B236E1CEDD488008BAB68 /* Sale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sale.h; sourceTree = "<group>"; };
 		8C8B236F1CEDD488008BAB68 /* Sale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sale.m; sourceTree = "<group>"; };
+		8C8B23711CEDD560008BAB68 /* DisplayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayView.h; sourceTree = "<group>"; };
+		8C8B23721CEDD560008BAB68 /* DisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayView.m; sourceTree = "<group>"; };
+		ABCD5034F8DE708E864BCD83 /* Pods-TestDoublesObjCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDoublesObjCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestDoublesObjCTests/Pods-TestDoublesObjCTests.release.xcconfig"; sourceTree = "<group>"; };
+		CAD7DCA396A6A78F051B1FEB /* libPods-TestDoublesObjCTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestDoublesObjCTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE14FA9B7672260624E3FEE7 /* Pods-TestDoublesObjCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestDoublesObjCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestDoublesObjCTests/Pods-TestDoublesObjCTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EAFCFACAF5F7C01D5B4D282 /* libPods-TestDoublesObjCTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +77,8 @@
 				8C8B23481CEDD46E008BAB68 /* TestDoublesObjC */,
 				8C8B23621CEDD46E008BAB68 /* TestDoublesObjCTests */,
 				8C8B23471CEDD46E008BAB68 /* Products */,
+				8F80EFC1F44DA18A51572515 /* Pods */,
+				EDFCC887B915367645AEE06A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +100,8 @@
 				8C8B23501CEDD46E008BAB68 /* ViewController.m */,
 				8C8B236E1CEDD488008BAB68 /* Sale.h */,
 				8C8B236F1CEDD488008BAB68 /* Sale.m */,
+				8C8B23711CEDD560008BAB68 /* DisplayView.h */,
+				8C8B23721CEDD560008BAB68 /* DisplayView.m */,
 				8C8B23521CEDD46E008BAB68 /* Main.storyboard */,
 				8C8B23551CEDD46E008BAB68 /* Assets.xcassets */,
 				8C8B23571CEDD46E008BAB68 /* LaunchScreen.storyboard */,
@@ -116,6 +128,23 @@
 			path = TestDoublesObjCTests;
 			sourceTree = "<group>";
 		};
+		8F80EFC1F44DA18A51572515 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE14FA9B7672260624E3FEE7 /* Pods-TestDoublesObjCTests.debug.xcconfig */,
+				ABCD5034F8DE708E864BCD83 /* Pods-TestDoublesObjCTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EDFCC887B915367645AEE06A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAD7DCA396A6A78F051B1FEB /* libPods-TestDoublesObjCTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,9 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C8B236B1CEDD46E008BAB68 /* Build configuration list for PBXNativeTarget "TestDoublesObjCTests" */;
 			buildPhases = (
+				85A7523AE5ACB09E73E61D09 /* Check Pods Manifest.lock */,
 				8C8B235B1CEDD46E008BAB68 /* Sources */,
 				8C8B235C1CEDD46E008BAB68 /* Frameworks */,
 				8C8B235D1CEDD46E008BAB68 /* Resources */,
+				B7AE16E7BB9355BF6664785B /* Embed Pods Frameworks */,
+				91008C37FE0B27E47FAE7BBE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -211,6 +243,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		85A7523AE5ACB09E73E61D09 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		91008C37FE0B27E47FAE7BBE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestDoublesObjCTests/Pods-TestDoublesObjCTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7AE16E7BB9355BF6664785B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestDoublesObjCTests/Pods-TestDoublesObjCTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8C8B23421CEDD46E008BAB68 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -220,6 +300,7 @@
 				8C8B234E1CEDD46E008BAB68 /* AppDelegate.m in Sources */,
 				8C8B23701CEDD488008BAB68 /* Sale.m in Sources */,
 				8C8B234B1CEDD46E008BAB68 /* main.m in Sources */,
+				8C8B23731CEDD560008BAB68 /* DisplayView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +448,7 @@
 		};
 		8C8B236C1CEDD46E008BAB68 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE14FA9B7672260624E3FEE7 /* Pods-TestDoublesObjCTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TestDoublesObjCTests/Info.plist;
@@ -379,6 +461,7 @@
 		};
 		8C8B236D1CEDD46E008BAB68 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABCD5034F8DE708E864BCD83 /* Pods-TestDoublesObjCTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = TestDoublesObjCTests/Info.plist;
@@ -408,6 +491,7 @@
 				8C8B236A1CEDD46E008BAB68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C8B236B1CEDD46E008BAB68 /* Build configuration list for PBXNativeTarget "TestDoublesObjCTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +500,7 @@
 				8C8B236D1CEDD46E008BAB68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
