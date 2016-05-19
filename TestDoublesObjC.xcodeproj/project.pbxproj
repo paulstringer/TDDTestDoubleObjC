@@ -14,6 +14,7 @@
 		8C8B23561CEDD46E008BAB68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C8B23551CEDD46E008BAB68 /* Assets.xcassets */; };
 		8C8B23591CEDD46E008BAB68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C8B23571CEDD46E008BAB68 /* LaunchScreen.storyboard */; };
 		8C8B23641CEDD46E008BAB68 /* TestDoublesObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8B23631CEDD46E008BAB68 /* TestDoublesObjCTests.m */; };
+		8C8B23701CEDD488008BAB68 /* Sale.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8B236F1CEDD488008BAB68 /* Sale.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		8C8B235F1CEDD46E008BAB68 /* TestDoublesObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDoublesObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C8B23631CEDD46E008BAB68 /* TestDoublesObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDoublesObjCTests.m; sourceTree = "<group>"; };
 		8C8B23651CEDD46E008BAB68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C8B236E1CEDD488008BAB68 /* Sale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sale.h; sourceTree = "<group>"; };
+		8C8B236F1CEDD488008BAB68 /* Sale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sale.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				8C8B234D1CEDD46E008BAB68 /* AppDelegate.m */,
 				8C8B234F1CEDD46E008BAB68 /* ViewController.h */,
 				8C8B23501CEDD46E008BAB68 /* ViewController.m */,
+				8C8B236E1CEDD488008BAB68 /* Sale.h */,
+				8C8B236F1CEDD488008BAB68 /* Sale.m */,
 				8C8B23521CEDD46E008BAB68 /* Main.storyboard */,
 				8C8B23551CEDD46E008BAB68 /* Assets.xcassets */,
 				8C8B23571CEDD46E008BAB68 /* LaunchScreen.storyboard */,
@@ -213,6 +218,7 @@
 			files = (
 				8C8B23511CEDD46E008BAB68 /* ViewController.m in Sources */,
 				8C8B234E1CEDD46E008BAB68 /* AppDelegate.m in Sources */,
+				8C8B23701CEDD488008BAB68 /* Sale.m in Sources */,
 				8C8B234B1CEDD46E008BAB68 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
