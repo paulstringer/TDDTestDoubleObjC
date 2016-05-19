@@ -8,11 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@class DisplayView;
-
 @interface Sale : NSObject
-
-- (id) initWithDisplay:(DisplayView*)display;
 
 - (void) scan:(NSString *)barcode;
 

@@ -7,25 +7,12 @@
 //
 
 #import "Sale.h"
-#import "DisplayView.h"
 
 @interface Sale()
-
-@property (nonatomic, strong) DisplayView *display;
 
 @end
 
 @implementation Sale
-
-- (id) initWithDisplay:(DisplayView*)display {
-    
-    if (self == [super init]) {
-        
-        _display = display;
-    }
-    
-    return self;
-}
 
 - (void) scan:(NSString *)barcode {
     
