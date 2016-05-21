@@ -68,6 +68,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C18929A1CF08F4400A0E160 /* App Gumph */ = {
+			isa = PBXGroup;
+			children = (
+				8C8B234C1CEDD46E008BAB68 /* AppDelegate.h */,
+				8C8B234D1CEDD46E008BAB68 /* AppDelegate.m */,
+				8C8B234F1CEDD46E008BAB68 /* ViewController.h */,
+				8C8B23501CEDD46E008BAB68 /* ViewController.m */,
+				8C8B23521CEDD46E008BAB68 /* Main.storyboard */,
+				8C8B23551CEDD46E008BAB68 /* Assets.xcassets */,
+				8C8B23571CEDD46E008BAB68 /* LaunchScreen.storyboard */,
+				8C8B235A1CEDD46E008BAB68 /* Info.plist */,
+			);
+			name = "App Gumph";
+			sourceTree = "<group>";
+		};
+		8C18929B1CF08F4C00A0E160 /* Point of Sale */ = {
+			isa = PBXGroup;
+			children = (
+				8C8B236E1CEDD488008BAB68 /* Sale.h */,
+				8C8B236F1CEDD488008BAB68 /* Sale.m */,
+			);
+			name = "Point of Sale";
+			sourceTree = "<group>";
+		};
 		8C8B233D1CEDD46E008BAB68 = {
 			isa = PBXGroup;
 			children = (
@@ -91,16 +115,8 @@
 		8C8B23481CEDD46E008BAB68 /* TestDoublesObjC */ = {
 			isa = PBXGroup;
 			children = (
-				8C8B234C1CEDD46E008BAB68 /* AppDelegate.h */,
-				8C8B234D1CEDD46E008BAB68 /* AppDelegate.m */,
-				8C8B234F1CEDD46E008BAB68 /* ViewController.h */,
-				8C8B23501CEDD46E008BAB68 /* ViewController.m */,
-				8C8B23521CEDD46E008BAB68 /* Main.storyboard */,
-				8C8B23551CEDD46E008BAB68 /* Assets.xcassets */,
-				8C8B23571CEDD46E008BAB68 /* LaunchScreen.storyboard */,
-				8C8B235A1CEDD46E008BAB68 /* Info.plist */,
-				8C8B236E1CEDD488008BAB68 /* Sale.h */,
-				8C8B236F1CEDD488008BAB68 /* Sale.m */,
+				8C18929A1CF08F4400A0E160 /* App Gumph */,
+				8C18929B1CF08F4C00A0E160 /* Point of Sale */,
 				8C8B23491CEDD46E008BAB68 /* Supporting Files */,
 			);
 			path = TestDoublesObjC;
